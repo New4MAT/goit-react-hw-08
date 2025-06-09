@@ -1,6 +1,6 @@
 import css from './ContactItem.module.css';
 import { useDispatch } from 'react-redux';
-import { deleteContact } from '../../redux/contacts/contactsOps';
+import { deleteContact } from '../../redux/contacts/operations';
 import { toast } from 'react-hot-toast';
 import styles from './ContactItem.module.css';
 
