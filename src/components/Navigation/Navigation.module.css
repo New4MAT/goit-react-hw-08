@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  color: #4a5568;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #ebf8ff;
+  color: #3182ce;
+  transform: translateY(-2px);
+}
+
+.link.active {
+  background-color: #bee3f8;
+  color: #2b6cb0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+.text {
+  font-size: 1rem;
+}

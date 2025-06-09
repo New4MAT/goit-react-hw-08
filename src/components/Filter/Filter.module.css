@@ -1,22 +1,31 @@
-.label {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-bottom: 20px;
-  font-size: 18px;
+.filterContainer {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.input {
-  padding: 8px 12px;
-  border: 1px solid #ccc;
+.filterLabel {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #333;
+}
+
+.filterInput {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 8px;
+  border: 1px solid #ced4da;
   border-radius: 4px;
   font-size: 16px;
-  width: 100%;
-  max-width: 400px;
+  transition: border-color 0.3s;
 }
 
-.input:focus {
+.filterInput:focus {
   outline: none;
-  border-color: #646cff;
-  box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.2);
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
